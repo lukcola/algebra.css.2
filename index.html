@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2>Login Forma</h2>
+    <form>
+        <div>
+            <img src="./media/img/slika1.jpg" alt="slika" class="slika">
+        </div>
+
+        <div>
+            <label for="uname"><b>Korisničko ime</b></label>
+            <input type="text" placeholder="Unesite korisničko ime" name="uname" required>
+
+            <label for="psw"><b>Lozinka</b></label>
+            <input type="password" placeholder="Unesite lozinku" name="psw" required>
+
+            <button type="submit">Login</button>
+            <label>
+                <input type="checkbox" name="remember" checked>Zapamti me
+            </label>
+        </div>
+
+        <div>
+            <button type="button">Odustani</button>
+            <span>Zaboravljena<a href="#">lozinka?</a></span>
+        </div>
+    </form>
+</body>
+
+</html>
