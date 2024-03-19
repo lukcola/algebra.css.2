@@ -1,0 +1,27 @@
+[title] {
+    text-decoration: underline solid red;
+}
+
+[title="prvi odlomak"] {
+    background-color: yellow;
+}
+
+[title~="drugi"] {
+    text-transform: uppercase;
+}
+
+[title^="odlomak"] {
+    font-style: italic;
+}
+
+[title|="odlomak"]{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+[title$="odlomak"]{
+    color: blue;
+}
+
+[title*="odlomak"]{
+    color: darkolivegreen;
+}
