@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="hr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="zadatak2.css">
+</head>
+
+<body>
+    <form style="border: 1px solid #ccc;">
+        <div class="container">
+            <h2>Foram za prijavu</h2>
+            <p>Molim inesite podatke u formu za kreiranje novog računa.</p>
+            <hr>
+
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Unesite Email" name="email" required>
+
+            <label for="psw"><b>Lozinka</b></label>
+            <input type="password" placeholder="Unesite lozinku" name="psw" required>
+
+            <label for="psw-repeat"><b>Ponovite lozinku</b></label>
+            <input type="password" placeholder="Unesite lozinku" name="psw-repeat" required>
+
+            <label>
+                <input type="checkbox" name="remember" checked style="margin-bottom: 15px;">Zapamti me
+            </label>
+
+            <p>Prilikom kreiranja računa pristajete na naše <a href="#" style="color: dodgerblue;">Uvijeti korštenja</a>.</p>
+
+            <div class="clearfix">
+                <button type="button" class="cancelbtn">Odustani</button>
+                <button type="submit" class="signupbtn">Prijava</button>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
